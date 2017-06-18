@@ -1,0 +1,43 @@
+.title{
+
+	text-align: center;
+color:#188AE2;
+font-size: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-bottom: 1px solid #EBEFF2;
+}
+.information{
+	height: 220px;
+}
+
+.information > img{
+	margin-top: 40px;
+	width: 90px;
+	height: 90px;
+}
+.name{
+	margin-top:15px;
+color:#98A6AD
+}
+
+.menu-ul{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	
+}
+
+.menu-ul  li{
+
+padding: 15px;
+border-bottom: 1px solid #EBEFF2;
+}
+
+li a {
+	color:#6B6B6B;
+	text-decoration: none;
+}
+
+
+	

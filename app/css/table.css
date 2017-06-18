@@ -1,0 +1,33 @@
+
+.table-condensed{
+	border:1px solid #000;
+	height: 180px;
+}
+
+
+
+.table-condensed > tbody > tr >td {
+	border-bottom: none;
+	border-top: none;
+}
+
+.table-board{
+	border:1px solid #000;
+}
+.table-time{
+	padding-left: 115px;
+	margin-bottom: 14px;
+}
+
+.table-time  > span{
+	
+    margin-right:50px;
+	font-size: 12px;
+
+}
+#second-table >div {
+	margin-top:20px;
+	margin-top:20px;
+	border-bottom: 
+}
+

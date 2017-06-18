@@ -1,0 +1,57 @@
+<div class="main-manage">
+    <div class="main-top">
+        <form class="form-inline">
+            <div class="form-group" style="width:10%;">
+                <label for="exampleInputEmail2">公告类型</label>
+                <select class="form-control">
+                    <option>类型一</option>
+                    <option>类型二</option>
+                    <option>类型三</option>
+                </select>
+            </div>
+            
+            
+            
+            <div class="form-group" style="width:15%;">
+                        <label for="exampleInputName2">公告主题</label>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="公告的主题">
+                    </div>
+
+<div class="form-group" style="width:15%;">
+                <label for="exampleInputEmail2">发布部门</label>
+                <select class="form-control">
+                    <option>计生部</option>
+                    <option>国防部</option>
+                    <option>纪检委</option>
+                </select>
+            </div>
+
+                    <div class="form-group" style="width:10%;">
+                        <label for="exampleInputName2">添加时间</label>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="开始时间">
+                    </div>
+                    <div class="form-group" style="width:10%;">
+                        <label for="exampleInputName2">至</label>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="结束时间">
+                    </div>
+<div class="form-group" style="width:15%;margin-top: 15px;">
+<button class="btn btn-primary btn-lg" >查询</button>
+</div>
+
+        </form>
+        </div>
+        <div style="text-align: center;">
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myGonggao">新增公告</button>
+        
+    </div>
+           </div>
+
+
+
+
+<div ui-view="addGonggao"></div>
+
+       <div class="main-content">
+        <div page5></div>
+    </div>
+</div>
